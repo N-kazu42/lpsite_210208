@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Noto+Sans+JP:wght@400;500&family=Noto+Serif+JP:wght@400;500&family=Secular+One&family=Signika&display=swap" rel="stylesheet">
     <style>
         .bg-orange-100{
           background-color: #FCF6EF;
@@ -18,10 +16,18 @@
         .fm{
           font-family: 'Noto Serif JP', serif;
         }
+        .fb{
+          font-family: 'Secular One', sans-serif;
+        }
+        .fmi{
+          font-family: 'Merriweather Sans', sans-serif;
+        }
+
+
     </style>
 </head>
 <body class="fg">
-    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+    <nav id="header" class="fixed w-full z-30 top-0 text-white bg-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
           <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
@@ -80,7 +86,7 @@
             <section class="text-gray-600 body-font">
                 <div class="container p-10  mx-auto md:w-1/2">
                   <div class="flex flex-wrap justify-center">
-                    <div class="lg:w-1/4 w-1/2 p-1">
+                    <div class="lg:w-1/4 w-1/2 p-1 sm:p-4 lg:p-1">
                       <a class="block relative  rounded overflow-hidden ease-in-out transform duration-700 hover:-translate-y-1 hover:scale-110">
                         <img alt="サムネイル1" class="object-cover object-center w-full h-full block " src="images/topics-thum1.png">
                       </a>
@@ -90,7 +96,7 @@
                         <p class="mt-1 text-center fm">ＣＭ15秒Ver</p>
                       </div>
                     </div>
-                    <div class="lg:w-1/4 w-1/2 p-1">
+                    <div class="lg:w-1/4 w-1/2 p-1 sm:p-4 lg:p-1">
                       <a class="block relative  rounded overflow-hidden ease-in-out transform duration-700 hover:-translate-y-1 hover:scale-110">
                         <img alt="サムネイル2" class="object-cover object-center w-full h-full block" src="images/topics-thum2.png">
                       </a>
@@ -100,7 +106,7 @@
                         <p class="mt-1 text-center fm">ＣＭ15秒Ver</p>
                       </div>
                     </div>
-                    <div class="lg:w-1/4 w-1/2 p-1">
+                    <div class="lg:w-1/4 w-1/2 p-1 sm:p-4 lg:p-1">
                       <a class="block relative  rounded overflow-hidden ease-in-out transform duration-700 hover:-translate-y-1 hover:scale-110">
                         <img alt="サムネイル3" class="object-cover object-center w-full h-full block" src="images/topics-thum3.png">
                       </a>
@@ -110,7 +116,7 @@
                         <p class="mt-1 text-center fm">ＣＭ15秒Ver</p>
                       </div>
                     </div>
-                    <div class="lg:w-1/4 w-1/2 p-1">
+                    <div class="lg:w-1/4 w-1/2 p-1 sm:p-4 lg:p-1">
                       <a class="block relative  rounded overflow-hidden ease-in-out transform duration-700 hover:-translate-y-1 hover:scale-110">
                         <img alt="サムネイル4" class="object-cover object-center w-full h-full block" src="images/topics-thum4.png">
                       </a>
@@ -127,7 +133,7 @@
             <section>
                 <div class="w-full" style ="background:url(images/bg-img1.jpg) center / cover">
                     <div class="text-center pt-10">
-                        <h1 class="text-white text-5xl md:text-8xl">BIOBIO</h1>
+                        <h1 class="text-white text-5xl md:text-8xl fb">BIOBIO</h1>
                         <h2 class="text-white py-10 text-xl md:text-4xl fm">うるおう、まとまる、<br class="md:hidden"> ヴィーガンフレンドリー処方の<br>新発想シアバンテージシャンプー</h2>
                         <h3 class="text-white pb-10 text-xs md:text-base fm"> 保湿の王様・シアバターが髪に溶け込むように<br class="md:hidden">浸透してうるおいを補うとともに、<br>
                             蒸発しにくい油膜のヴェールで包んで、<br class="md:hidden">まるで見えない包帯のように<br>
@@ -166,13 +172,13 @@
                 </div>
               </section>
             <section class="body-font">
-                <div class="flex flex-wrap justify-center md:justify-end items-center pt-10">
+                <div class="flex flex-wrap justify-center md:block lg:flex lg:justify-end items-center pt-10">
                     <div class="p-10 ">
-                        <div class="text-5xl md:text-6xl">Moist</div>
+                        <div class="text-5xl md:text-6xl fmi">Moist</div>
                         <div class="text-xl md:text-2xl leading-9 py-5 fm">しっとりしなやかな質感で、<br>24時間まとまる髪へ</div>
                         <div class="text-xs text-gray-400">繰り返す毛先のパサつきも、長時間しっとりまとまる。</div>
                     </div>
-                    <div class="md:w-3/5">
+                    <div class="md:w-3/5 md:ml-auto lg:m-0">
                         <img src="images/lineup-main-img.png" alt="シャンプー画像">
                     </div>
 
@@ -240,7 +246,6 @@
               </section>
         </div>
     </section>
-    変更テスト
     
 
     <script>
@@ -256,8 +261,8 @@
         scrollpos = window.scrollY;
 
         if (scrollpos > 10) {
-          header.classList.add("bg-white");
-          navaction.classList.remove("bg-white");
+          // header.classList.add("bg-white");
+          // navaction.classList.remove("bg-white");
           navaction.classList.add("gradient");
           navaction.classList.remove("text-gray-800");
           navaction.classList.add("text-white");
@@ -267,12 +272,12 @@
             toToggle[i].classList.remove("text-white");
           }
           header.classList.add("shadow");
-          navcontent.classList.remove("bg-gray-100");
-          navcontent.classList.add("bg-white");
+          // navcontent.classList.remove("bg-gray-100");
+          // navcontent.classList.add("bg-white");
         } else {
-          header.classList.remove("bg-white");
+          // header.classList.remove("bg-white");
           navaction.classList.remove("gradient");
-          navaction.classList.add("bg-white");
+          // navaction.classList.add("bg-white");
           navaction.classList.remove("text-white");
           navaction.classList.add("text-gray-800");
           //Use to switch toggleColour colours
@@ -282,8 +287,8 @@
           }
 
           header.classList.remove("shadow");
-          navcontent.classList.remove("bg-white");
-          navcontent.classList.add("bg-gray-100");
+          // navcontent.classList.remove("bg-white");
+          // navcontent.classList.add("bg-gray-100");
         }
       });
     </script>
